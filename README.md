@@ -1,4 +1,7 @@
-## "Why not `man.el` or `woman.el`"?
+**mani.el** is yet another Emacs package to read Man page.
+
+
+### "Why not `man.el` or `woman.el`"?
 
 1. `man.el` does not support remote Man page.
 
@@ -14,7 +17,8 @@
 
    For example, "woman ls" produces the following sequences in my
    machine:
-
+   
+   ```
     .Dd May 19, 2002
     .Dt LS 1
     .Os
@@ -22,9 +26,9 @@
     .Nm ls
     .Nd list directory contents
     ...
+    ```
 
-
-## `mani.el` is a just-work Man page reader:
+### `mani.el` is a just-work Man page reader:
 
 1. It invokes the `man` program to produce the content.  So if
    `man` works, `mani.el` works.
@@ -34,7 +38,7 @@
    one, `man` is invoked in that remote machine.
 
 
-## Limitations
+### Limitations
 
 `mani.el` is not any feature-rich like `man.el` and `woman.el`.  It
 does not support navigation, completion, highlight, and caching
