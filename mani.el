@@ -56,6 +56,8 @@
 ;;
 ;;; Code:
 
+(require 'ansi-color)
+
 (defun mani-fontify ()
   "Convert overstriking and underlining to the correct fonts.
 Same for the ANSI bold and normal escape sequences.
